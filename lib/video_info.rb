@@ -3,6 +3,7 @@ require 'hpricot'
 require 'video_info/version'
 require 'provider/vimeo'
 require 'provider/youtube'
+require 'provider/dailymotion'
 
 class VideoInfo
 
