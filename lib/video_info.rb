@@ -26,6 +26,8 @@ class VideoInfo
       @video = Youtube.new(url, options)
     when /youtu\.be/
       @video = Youtube.new(url, options)
+    when /dailymotion\.com/
+      @video = Dailymotion.new(url, options)
     end
   end
 
