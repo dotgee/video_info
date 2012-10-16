@@ -44,15 +44,15 @@ Usage
   #video.average 			  => 4.9205164999999997
   #video.dislikes 			  => "40"
   #video.likes 			      => "1973"
-  #video.raters 			   => 2013
+  #video.raters 			 => 2013
   #video.favorite 			  => "0"
   #video.views 			      => "230931"
-  #video.url 				   => {
+  #video.url 				 => {
   #       				            :default	=> "http://www.youtube.com/watch?v=OTbddxQFOCU",
   #       				            :embed		=> "http://www.youtube.com/embed/OTbddxQFOCU"
   #       				        }
   #video.embed 			      => "<iframe src=\"http://www.youtube.com/embed/OTbddxQFOCU\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
-  #video.valid?             => true
+  #video.valid?               => true
 
   video = VideoInfo.new("http://vimeo.com/31067789")
 
