@@ -44,10 +44,10 @@ Usage
   #video.average 			  => 4.9205164999999997
   #video.dislikes 			  => "40"
   #video.likes 			      => "1973"
-  #video.raters 			 => 2013
+  #video.raters 			  => 2013
   #video.favorite 			  => "0"
   #video.views 			      => "230931"
-  #video.url 				 => {
+  #video.url 				  => {
   #       				            :default	=> "http://www.youtube.com/watch?v=OTbddxQFOCU",
   #       				            :embed		=> "http://www.youtube.com/embed/OTbddxQFOCU"
   #       				        }
