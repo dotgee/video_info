@@ -110,9 +110,9 @@ Usage
   #video.url				=> {
   #    						:default		=> "http://www.dailymotion.com/video/xubxtf",
   #    						:embed			=> "http://www.dailymotion.com/embed/video/xubxtf"
-  #						  }
-  #video.embed 			  => "<iframe frameborder=\"0\" width=\"480\" height=\"270\" src=\"http://www.dailymotion.com/embed/video/xubxtf\"></iframe>"
-  # video.valis?          => true
+  #						    }
+  #video.embed 			    => "<iframe frameborder=\"0\" width=\"480\" height=\"270\" src=\"http://www.dailymotion.com/embed/video/xubxtf\"></iframe>"
+  # video.valis?            => true
  
  video = VideoInfo.new("http://badurl.com/898029")
   # video.valid? => false
