@@ -23,7 +23,7 @@ Usage
   #video.description 		  => "Toute l'actualité sur http://www.bfmtv.com/ Le parachutiste autrichien Felix Baumgartner a sauté dimanche d'une altitude de 39.000 mètres dans le ciel du Nouveau-Mexique pour tenter de franchir le mur du son en chute libre. Une première."
   #video.duration 			  => "831"
   #video.publication 		  => "14 October 2012"
-  #video.updated 			    => "16 October 2012"
+  #video.updated 			  => "16 October 2012"
   #video.category_title 	  => "News"
   #video.category_detail 	  => "News & Politics"
   #video.thumbs 			    => {
