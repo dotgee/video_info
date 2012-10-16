@@ -35,7 +35,7 @@ Usage
   #       			            },
   #               					:medium 		=> "http://i.ytimg.com/vi/OTbddxQFOCU/mqdefault.jpg",
   #               					:large 			=> "http://i.ytimg.com/vi/OTbddxQFOCU/hqdefault.jpg"
-                          }
+  #                       }
   #video.author 			    => {
   #       				            :name		=> "BFMTV",
   #       				            :uri		=> "http://gdata.youtube.com/feeds/api/users/BFMTV",
