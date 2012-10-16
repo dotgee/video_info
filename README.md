@@ -153,5 +153,5 @@ Author
 Contributors
 ------------
 
-[https://github.com/thibaudgg/video_info/contributors](https://github.com/thibaudgg/video_info/contributors)
+[https://github.com/dotgee/video_info/contributors](https://github.com/dotgee/video_info/contributors)
 
