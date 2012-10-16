@@ -88,31 +88,31 @@ Usage
 
   video = VideoInfo.new("http://www.dailymotion.com/video/xubxtf_felix-baumgartner-red-bull-stratos-live-jump-replay_sport")
   
-  #video.video_id  		=> "xubxtf"
+  #video.video_id  		  => "xubxtf"
   #video.provider			=> "Dailymotion"
-  #video.title			=> "Felix Baumgartner Red Bull Stratos Live Jump (Replay)",
+  #video.title			  => "Felix Baumgartner Red Bull Stratos Live Jump (Replay)",
   #video.description		=> "Watch the Red Bull Stratos live jump in replay by  Felix Baumgartner from space<br />Red Bull Stratos : freefall from the edge of space",
   #video.duration			=> 615
   #video.publication		=> "14 October 2012"
   #video.updated			=> 1350251396
-  #video.thumbs			=> {
-  #    						:small			=> "http://static2.dmcdn.net/static/video/325/549/50945523:jpeg_preview_small.jpg?20121014234956",
-  #    						:medium		=> "http://static2.dmcdn.net/static/video/325/549/50945523:jpeg_preview_medium.jpg?20121014234956",
-  #    						:large			=> "http://static2.dmcdn.net/static/video/325/549/50945523:jpeg_preview_large.jpg?20121014234956"
-  #						}
-  #video.author			=> {
-  #    						:name			=> "koreus",
-  #    						:uri			=> "http://dailymotion.com/user/koreus"
-  #						}
+  #video.thumbs			  => {
+  #    						  :small			=> "http://static2.dmcdn.net/static/video/325/549/50945523:jpeg_preview_small.jpg?20121014234956",
+  #    						  :medium		=> "http://static2.dmcdn.net/static/video/325/549/50945523:jpeg_preview_medium.jpg?20121014234956",
+  #    						  :large			=> "http://static2.dmcdn.net/static/video/325/549/50945523:jpeg_preview_large.jpg?20121014234956"
+  #						  }
+  #video.author			  => {
+  #    						  :name			=> "koreus",
+  #    						  :uri			=> "http://dailymotion.com/user/koreus"
+  #						  }
   #video.average			=> 4.9000000000000004
-  #video.raters			=> 18
-  #video.views			=> 386054
+  #video.raters			  => 18
+  #video.views			  => 386054
   #video.url				=> {
   #    						:default		=> "http://www.dailymotion.com/video/xubxtf",
   #    						:embed			=> "http://www.dailymotion.com/embed/video/xubxtf"
-  #						}
-  #video.embed 			=> "<iframe frameborder=\"0\" width=\"480\" height=\"270\" src=\"http://www.dailymotion.com/embed/video/xubxtf\"></iframe>"
-  # video.valis?    => true
+  #						  }
+  #video.embed 			  => "<iframe frameborder=\"0\" width=\"480\" height=\"270\" src=\"http://www.dailymotion.com/embed/video/xubxtf\"></iframe>"
+  # video.valis?        => true
  
  video = VideoInfo.new("http://badurl.com/898029")
   # video.valid? => false
