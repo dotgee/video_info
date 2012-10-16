@@ -6,9 +6,9 @@ Tested against Ruby 1.8.7, 1.9.2, REE and the latest versions of JRuby & Rubiniu
 
 Install
 --------
-
+In your `Gemfile`
 ``` bash
-  gem install video_info
+  gem 'video_info', :git => "https://github.com/dotgee/video_info.git"
 ```
 
 Usage
