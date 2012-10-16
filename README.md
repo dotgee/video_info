@@ -78,12 +78,12 @@ Usage
   #			    			        }
   #						        }
   #video.likes			    => 1253
-  #video.url				  => {
+  #video.url				=> {
   #				    		        :default 	=> "http://www.vimeo.com/31067789",
   #				    		        :embed 		=> "http://player.vimeo.com/video/31067789"
   #						        }
   #video.embed			    => "<iframe src=\"http://player.vimeo.com/video/31067789\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
-  #video.valid?           => true
+  #video.valid?             => true
 
   video = VideoInfo.new("http://badurl.com/898029")
 
