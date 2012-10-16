@@ -26,7 +26,7 @@ Usage
   #video.updated 			  => "16 October 2012"
   #video.category_title 	  => "News"
   #video.category_detail 	  => "News & Politics"
-  #video.thumbs 			    => {
+  #video.thumbs 			  => {
   #      			            :small => {
   #       			                :default 	=> "http://i.ytimg.com/vi/OTbddxQFOCU/default.jpg",
   #        			                :start 		=> "http://i.ytimg.com/vi/OTbddxQFOCU/1.jpg",
@@ -36,23 +36,23 @@ Usage
   #               					:medium 		=> "http://i.ytimg.com/vi/OTbddxQFOCU/mqdefault.jpg",
   #               					:large 			=> "http://i.ytimg.com/vi/OTbddxQFOCU/hqdefault.jpg"
   #                       }
-  #video.author 			    => {
+  #video.author 			  => {
   #       				            :name		=> "BFMTV",
   #       				            :uri		=> "http://gdata.youtube.com/feeds/api/users/BFMTV",
   #       				            :id			=> "XwDLMDV86ldKoFVc_g8P0g"
   #       			        	}
-  #video.average 			    => 4.9205164999999997
+  #video.average 			  => 4.9205164999999997
   #video.dislikes 			  => "40"
   #video.likes 			      => "1973"
-  #video.raters 			    => 2013
+  #video.raters 			   => 2013
   #video.favorite 			  => "0"
   #video.views 			      => "230931"
-  #video.url 				      => {
+  #video.url 				   => {
   #       				            :default	=> "http://www.youtube.com/watch?v=OTbddxQFOCU",
   #       				            :embed		=> "http://www.youtube.com/embed/OTbddxQFOCU"
   #       				        }
   #video.embed 			      => "<iframe src=\"http://www.youtube.com/embed/OTbddxQFOCU\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
-  #video.valid?           => true
+  #video.valid?             => true
 
   video = VideoInfo.new("http://vimeo.com/31067789")
 
