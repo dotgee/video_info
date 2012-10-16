@@ -24,8 +24,8 @@ Usage
   #video.duration 			  => "831"
   #video.publication 		  => "14 October 2012"
   #video.updated 			    => "16 October 2012"
-  #video.category_title 	=> "News"
-  #video.category_detail 	=> "News & Politics"
+  #video.category_title 	  => "News"
+  #video.category_detail 	  => "News & Politics"
   #video.thumbs 			    => {
   #      			            :small => {
   #       			                :default 	=> "http://i.ytimg.com/vi/OTbddxQFOCU/default.jpg",
