@@ -141,7 +141,7 @@ It supports all openURI header fields (options), for more information see: [open
 You can also include an `iframe_attributes` hash to include arbitrary attributes in the iframe embed code:
 
 ``` ruby
-VideoInfo.new("http://www.youtube.com/watch?v=mZqGqE0D0n4", :iframe_attributes => { :width => 800, :height => 600, "data-key" => "value" } ).embed_code
+VideoInfo.new("http://www.youtube.com/watch?v=mZqGqE0D0n4", :iframe_attributes => { :width => 800, :height => 600, "data-key" => "value" } ).embed
 => '<iframe src="http://www.youtube.com/embed/mZqGqE0D0n4" frameborder="0" allowfullscreen="allowfullscreen" width="800" height="600" data-key="value"></iframe>'
 ```
 
