@@ -52,22 +52,38 @@ Usage
   #       				            :embed		=> "http://www.youtube.com/embed/OTbddxQFOCU"
   #       				        }
   #video.embed 			      => "<iframe src=\"http://www.youtube.com/embed/OTbddxQFOCU\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
+  #video.valid?           => true
 
-  video = VideoInfo.new("http://vimeo.com/898029")
+  video = VideoInfo.new("http://vimeo.com/31067789")
 
-  # video.video_id         => "898029"
-  # video.provider         => "Vimeo"
-  # video.title            => "Cherry Bloom - King Of The Knife"
-  # video.description      => "The first video from the upcoming album Secret Sounds, to download in-stores April 14. Checkout http://www.cherrybloom.net"
-  # video.keywords         => "alternative, bloom, cherry, clip, drum, guitar, king, knife, of, Paris-Forum, rock, the, tremplin"
-  # video.duration         => 175 (in seconds)
-  # video.date             => Mon Apr 14 13:10:39 +0200 2008
-  # video.width            => 640
-  # video.height           => 360
-  # video.thumbnail_small  => "http://ts.vimeo.com.s3.amazonaws.com/343/731/34373130_100.jpg"
-  # video.thumbnail_large  => "http://ts.vimeo.com.s3.amazonaws.com/343/731/34373130_640.jpg"
-  # video.embed_url        => "http://player.vimeo.com/video/898029"
-  # video.embed_code       => "'<iframe src="http://player.vimeo.com/video/898029?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=0" frameborder="0"></iframe>'"
+  #video.video_id  		  => "31067789"
+  #video.provider			  => "Vimeo"
+  #video.title			    => "Legs Of Steel - Nothing Else Matters - OFFICIAL FREE FILM"
+  #video.description		=> "PRE ORDER THE 2012 Movie here: http://itunes.apple.com/us/movie/hurt-so-good/id555519375<br />rn<br />rnCHECKOUT THE 2012 TRAILER FOR \"HURT SO GOOD\" - http://www.youtube.com/watch?feature=player_embedded&v=sA3uZ0a1G-0<br />rn<br />rnCRANK UP YOUR SPEAKERS AND HIT FULL SCREEN!!!<br />rn<br />rnLegs Of Steel is proud to present their 2011 ski film \"Nothing Else Matters\" in association with Red Bull Media House, Vu00f6lkl, Marker, Oakley, Fiat Freestyle Team, Leki, Atomic and Monashee Powder Snowcats.<br />rn<br />rnFilmed, Directed and Produced by Andre Nutini<br />rn<br />rnExecutive Producers: <br />rnBene Mayr <br />rnTobi Reindl<br />rnPaddy Graham<br />rnThomas Hlawitschka<br />rn<br />rnFeatured Athletes: Tobi Reindl, Bene Mayr, Paddy Graham, Thomas Hlawitschka, Sven Kueenle, Fabio Studer, Max Hill, Lucas and Tobi Mangold, Antti Ollila, Oscar Scherlin, Lolo Favre, Elvis Harsheim, Sebi Geiger, Nico Zacek, Tobi Tritscher and Toni Hu00f6llwart. <br />rn<br />rnwww.legsofsteel.eu  - Official Legs Of Steel SHOP - www.downdays.eu/shop/legsofsteel<br />rn<br />rnCheck out these bands:<br />rnwww.totorro.bandcamp.com<br />rnhttp://prettylightsmusic.com/"
+  #video.duration			  => 1591
+  #video.publication		=> "25 October 2011"
+  #video.thumbs			    => {
+  #				    		          :small	=> "http://b.vimeocdn.com/ts/211/506/211506965_100.jpg",
+  #				    		          :medium	=> "http://b.vimeocdn.com/ts/211/506/211506965_200.jpg",
+  #				    		          :large	=> "http://b.vimeocdn.com/ts/211/506/211506965_640.jpg"
+  #						          }
+  #video.author			  => {
+  #				    		        :name 	=> "Legs of Steel",
+  #				    		        :uri 	=> "http://vimeo.com/legsofsteel",
+  #				    		        :id 	=> 4181164,
+  #				    		        :thumbs => {
+  #				        		        :small 		=> "http://b.vimeocdn.com/ps/141/064/1410640_30.jpg",
+  #				        		        :medium 	=> "http://b.vimeocdn.com/ps/141/064/1410640_75.jpg",
+  #				        		        :large 		=> "http://b.vimeocdn.com/ps/141/064/1410640_100.jpg"
+  #			    			        }
+  #						        }
+  #video.likes			  => 1253
+  #video.url				  => {
+  #				    		        :default 	=> "http://www.vimeo.com/31067789",
+  #				    		        :embed 		=> "http://player.vimeo.com/video/31067789"
+  #						        }
+  #video.embed			  => "<iframe src=\"http://player.vimeo.com/video/31067789\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
+  #video.valid?       => true
 
   video = VideoInfo.new("http://badurl.com/898029")
 
