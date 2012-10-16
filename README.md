@@ -27,20 +27,20 @@ Usage
   #video.category_title 	=> "News"
   #video.category_detail 	=> "News & Politics"
   #video.thumbs 			    => {
-          			            :small => {
-          			                :default 	=> "http://i.ytimg.com/vi/OTbddxQFOCU/default.jpg",
-          			                :start 		=> "http://i.ytimg.com/vi/OTbddxQFOCU/1.jpg",
-          			                :middle 	=> "http://i.ytimg.com/vi/OTbddxQFOCU/2.jpg",
-          			                :end 		=> "http://i.ytimg.com/vi/OTbddxQFOCU/3.jpg"
-          			            },
-                  					:medium 		=> "http://i.ytimg.com/vi/OTbddxQFOCU/mqdefault.jpg",
-                  					:large 			=> "http://i.ytimg.com/vi/OTbddxQFOCU/hqdefault.jpg"
+  #      			            :small => {
+  #       			                :default 	=> "http://i.ytimg.com/vi/OTbddxQFOCU/default.jpg",
+  #        			                :start 		=> "http://i.ytimg.com/vi/OTbddxQFOCU/1.jpg",
+  #       			                :middle 	=> "http://i.ytimg.com/vi/OTbddxQFOCU/2.jpg",
+  #       			                :end 		=> "http://i.ytimg.com/vi/OTbddxQFOCU/3.jpg"
+  #       			            },
+  #               					:medium 		=> "http://i.ytimg.com/vi/OTbddxQFOCU/mqdefault.jpg",
+  #               					:large 			=> "http://i.ytimg.com/vi/OTbddxQFOCU/hqdefault.jpg"
                           }
   #video.author 			    => {
-          				            :name		=> "BFMTV",
-          				            :uri		=> "http://gdata.youtube.com/feeds/api/users/BFMTV",
-          				            :id			=> "XwDLMDV86ldKoFVc_g8P0g"
-          			        	}
+  #       				            :name		=> "BFMTV",
+  #       				            :uri		=> "http://gdata.youtube.com/feeds/api/users/BFMTV",
+  #       				            :id			=> "XwDLMDV86ldKoFVc_g8P0g"
+  #       			        	}
   #video.average 			    => 4.9205164999999997
   #video.dislikes 			  => "40"
   #video.likes 			      => "1973"
@@ -48,9 +48,9 @@ Usage
   #video.favorite 			  => "0"
   #video.views 			      => "230931"
   #video.url 				      => {
-          				            :default	=> "http://www.youtube.com/watch?v=OTbddxQFOCU",
-          				            :embed		=> "http://www.youtube.com/embed/OTbddxQFOCU"
-          				        }
+  #       				            :default	=> "http://www.youtube.com/watch?v=OTbddxQFOCU",
+  #       				            :embed		=> "http://www.youtube.com/embed/OTbddxQFOCU"
+  #       				        }
   #video.embed 			      => "<iframe src=\"http://www.youtube.com/embed/OTbddxQFOCU\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>"
 
   video = VideoInfo.new("http://vimeo.com/898029")
